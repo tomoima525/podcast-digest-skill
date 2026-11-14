@@ -1,0 +1,20 @@
+[project]
+name = "podcast-digests"
+version = "0.1.0"
+description = "Japanese podcast recording -> 9:16 highlight video with burned-in captions (Claude skill)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    # Only transcribe.py / check_env.py need these; every other script is stdlib-only.
+    "openai>=1.40",
+    "python-dotenv>=1.0",  # loads OPENAI_API_KEY from <repo>/.env
+]
+
+[dependency-groups]
+dev = [
+    "pyflakes>=3.2",
+]
+
+[tool.uv]
+# Scripts are run directly (`uv run scripts/<name>.py`); there is nothing to build or install.
+package = false

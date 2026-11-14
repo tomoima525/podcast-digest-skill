@@ -1,0 +1,23 @@
+# episode working dirs (inputs and outputs are large / private)
+episodes/*
+!episodes/.gitkeep
+tests/.work/
+__pycache__/
+*.pyc
+.venv/
+# secrets: OPENAI_API_KEY lives here (template: .env.example)
+.env
+.env.*
+!.env.example
+*.tmp
+*.tmp.mp3
+*.tmp.mp4
+.DS_Store
+# tool caches and local editor / agent settings
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.log
+.claude/settings.local.json
+.idea/
+.vscode/

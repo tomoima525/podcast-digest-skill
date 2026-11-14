@@ -1,0 +1,9 @@
+{
+  "instruction": "Claude Codeのスキル機能について話しているところ",
+  "start_id": 6,
+  "end_id": 13,
+  "start_at": "今日は、Claude Codeのスキル機能について",
+  "title": "Claude Codeのスキル機能とは",
+  "reason": "The skills topic is introduced in segment 6 (「今日は、Claude Codeのスキル機能について話したいと思います」) and wraps up in segment 13 with the remark that Anthropic's docs recommend this design; the next segment switches to transcription. Starts after the transition 「では本題です。」 so the clip stands alone. The whole discussion fits in 180s, nothing cut.",
+  "alternatives": []
+}

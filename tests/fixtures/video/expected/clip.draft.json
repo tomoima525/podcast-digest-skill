@@ -1,0 +1,16 @@
+{
+  "instruction": "この回の大事なポイントをまとめて",
+  "title": "スキル機能と文字起こしの要点",
+  "reason": "Three highlights that each stand alone: what skills are, the key design point (scripts for fixed work, the agent for judgement), and the practical whisper tip. Small talk and transitions are left out.",
+  "spans": [
+    {"start_id": 6, "end_id": 8, "start_at": "今日は、Claude Codeのスキル機能について",
+     "title": "スキル機能とは", "reason": "Introduces the topic and explains what a skill is."},
+    {"start_id": 12, "end_id": 12, "title": "分担が大事",
+     "reason": "The core point of the episode, self-contained in one turn."},
+    {"start_id": 16, "end_id": 17, "title": "固有名詞はプロンプトで",
+     "reason": "Concrete tip on whisper accuracy and cost; understandable without the question before it."}
+  ],
+  "alternatives": [
+    {"start_id": 10, "end_id": 11, "title": "スクリプトで再現性", "reason": "Example of bundling an ffmpeg script; could replace the second highlight."}
+  ]
+}
