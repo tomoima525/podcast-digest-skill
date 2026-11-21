@@ -1,4 +1,4 @@
-# podcast-digests
+# podcast digests skill for agents
 
 Turn a podcast(video/audio) episode into a vertical (9:16) short of up to 180 s with
 burned-in captions. You say what to feature in plain words ("the section where
