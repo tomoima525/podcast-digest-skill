@@ -1,9 +1,12 @@
 # podcast-digests
 
-Turn a Japanese podcast episode into a vertical (9:16) short of up to 180 s with
-burned-in Japanese captions. You say what to feature in plain words ("the section where
+Turn a podcast(video/audio) episode into a vertical (9:16) short of up to 180 s with
+burned-in captions. You say what to feature in plain words ("the section where
 we talk about pricing", "the important points"). The short is one part of the episode,
-or several parts joined in order with hard cuts.
+or several parts joined in order with hard cuts. English and Japanese supported.
+
+<img width="270" height="480" alt="image" src="https://github.com/user-attachments/assets/1b5cc4fc-ce6e-4f3a-b14a-03646ff4bce7" />
+
 
 Two kinds of episode go through the same pipeline:
 
@@ -226,3 +229,6 @@ uv run --with openai-whisper tests/local_transcribe.py <ep>
 To rebuild the fixture (macOS only): `uv run tests/make_fixture.py`.
 
 Lint: `uv run pyflakes scripts tests`.
+
+
+Created by Tomoaki Imai/MIT license
